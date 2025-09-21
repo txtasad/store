@@ -1,0 +1,113 @@
+.admin-page-main-title {
+  margin-bottom: 60px;
+}
+.admin-page-main-title h4 {
+  font-weight: 700;
+}
+.admin-page-main-title p {
+  font-weight: 600;
+}
+.article-generate-section {
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.article-generate-section .nav-link svg {
+  font-size: 25px;
+  color: #111111;
+}
+.input-body {
+  border: 1px solid rgba(29, 4, 4, 0.178);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+.Paraphraser-textarea {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 50px;
+  border: 1px solid rgba(29, 4, 4, 0.178);
+  outline: none;
+  padding-top: 10px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+.article-generate-section .form-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #a400dd 1.24%, #6310e9 100.37%);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 35px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pai-chart-area {
+  padding: 10px 20px;
+}
+
+/* progress css */
+
+.editor-head-content-detector h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.progress-container {
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.1);
+}
+
+.progress-container,
+.progress {
+  background-color: #06c52f;
+  border-radius: 5px;
+  position: relative;
+  height: 16px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #6f39b0 !important;
+  width: 0;
+  transition: width 0.4s linear;
+}
+
+.percentage {
+  background-color: #6f39b0;
+  border-radius: 5px;
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 12px;
+  padding: 4px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  transform: translateX(-50%);
+  width: 40px;
+  text-align: center;
+  transition: left 0.4s linear;
+}
+
+.percentage::after {
+  background-color: #6f39b0;
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+.progress {
+  transition: width 0.4s ease-in-out;
+}
+
+.percentage {
+  position: absolute;
+  top: 25px;
+  transition: left 0.4s ease-in-out;
+}

@@ -29,7 +29,7 @@ https://
 git clone https://github.com/txtasad/store.git
 
 # Navigate into the project folder
-cd news-platform
+cd store-marketplace-platform
 
 # Install dependencies
 npm install
